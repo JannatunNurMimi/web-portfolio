@@ -1,5 +1,6 @@
 body{
     font-family: font-family: 'Oswald', sans-serif;
+    margin: 0px;
 }
 .name-highlight{
     color: coral;
@@ -12,4 +13,20 @@ body{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: coral;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightsalmon, rgb(250, 35, 35));
 }
